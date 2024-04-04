@@ -1,0 +1,34 @@
+.parent{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-around;
+}
+.parent1{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-evenly;
+}
+.parent2{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+}
+.parent3{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: flex-end;
+}
+.child{
+    border: 2px solid red;
+    background-color: blanchedalmond;
+    flex-basis: 50px;
+    /* flex-wrap: wrap; */
+    
+}
+/* .search{
+    flex-grow: 3;
+    flex-shrink: 1;
+}
+.cart{
+    flex-grow: 1;
+} */

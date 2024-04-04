@@ -1,0 +1,11 @@
+.parent ul{
+    background-color: aquamarine;
+}
+
+.parent>ul{
+    background-color: blanchedalmond;
+}
+
+.parent+ul{
+    background-color: blueviolet;
+}

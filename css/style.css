@@ -1,0 +1,43 @@
+*{
+    font-size: 20px;
+    padding-bottom: 0px;
+    box-sizing: border-box;
+    margin : 0px;
+    width: border(l&r)+content+padding;
+}
+.hello{
+    background-color: aqua;
+    border: 5px solid red;
+    padding: 3px 10px;
+    margin: 50px 55px 10px; /* top rightleft bottom */
+    width: 10px;
+}
+#hi{
+    border: 2px solid purple;
+    #first{
+        background-color: orange;
+        padding: 10px;
+        text-align: center;
+        width: 50%;
+        margin: 0px auto;
+    }
+    #third{
+        background-color: blue;
+        padding: 10px;
+        text-align: center;
+        width: 50%;
+        margin: 0 0 0 auto;
+    }
+    #second{
+        background-color: aquamarine;
+        width: 100px;
+        padding: 10px;
+    }
+}
+#image{
+    text-align: center;
+}
+
+#para{
+    color: blueviolet;
+}

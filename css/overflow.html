@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+    <style>
+        body{
+            padding: 0px;
+            margin: 0px;
+        }
+        .parent{
+            ol{
+                background-color: olive;
+                padding: 20px;
+            }
+            ul:first-child{
+                background-color: aquamarine;
+            }
+            ul:last-child{
+                background-color: blueviolet;
+                li:nth-child(3){
+                    background-color: white;
+                    color: green;
+                }
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div>
+            <ul>
+                <li>mobile</li>
+                <li>laptop</li>
+                <li>table</li>
+                <li>chair</li>
+            </ul>
+            <ol>
+                <li>pineaple</li>    
+                <li>papaya</li>    
+                <li>banana</li>    
+                <li>kiwi</li>    
+            </ol>
+            <ul>
+                <li>tea</li>
+                <li>coffee</li>
+                <li>juice</li>
+                <li>water</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

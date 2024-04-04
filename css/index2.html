@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        /* #first{
+            color: red;
+            font-size: large;
+        }
+        #third{
+            color: green;
+            font-size: larger;
+        }
+        .second{
+            color : blue;
+            font-size: medium;
+        }
+        .heading-two{
+            background-color: yellow;
+        }
+        .big-text{
+            font-size: 35px;
+        } */
+        .heading-two.big-text{
+            background-color: orange;
+        }
+        .heading-two .big-text{
+            background-color: aqua;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="first">
+        Content1
+    </div>
+    <div class="second">
+        Content2
+    </div>
+    <div id="third">
+        Content3
+    </div>
+    <div class="second">
+        Content4
+    </div>
+    <div class="heading-two big-text">
+        heading-two : kebab-case
+        headingtwo : camelCase
+        heading_two : snake_snake
+        HeadingTwo : PascalCase
+    </div>
+    <div class="heading-two">
+        <div class="big-text">
+        heading-two : kebab-case
+        headingtwo : camelCase
+        heading_two : snake_snake
+        HeadingTwo : PascalCase
+    </div>
+    </div>
+</body>
+</html>
