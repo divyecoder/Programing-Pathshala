@@ -1,0 +1,32 @@
+.parent{
+    border: 2px solid red;
+    padding: auto;
+    margin: auto;
+}
+h1{
+    background-color: red;
+    position: sticky;
+    top: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+/* @media(800px <= width <= 1000px){
+    .parent{
+        background-color: aqua;
+    }
+} */
+@media(min-width: 800px){
+    .parent{
+        background-color: aqua;
+    }
+}
+@media(max-width: 800px){
+    .parent{
+        background-color: greenyellow;
+    }
+}
+.parent{
+    transition-property : width;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+}
