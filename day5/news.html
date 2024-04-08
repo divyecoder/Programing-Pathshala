@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NEWS APP</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        header{
+          height: 100px;
+          background-color: aquamarine;
+          text-align: center;
+        }
+        .news{
+            background-color: yellow;
+            max-width: 400px;
+            padding: 24px;
+            border: 1px solid red;
+            margin: 40px auto;
+        }
+        img{
+            max-width: 300px;
+            max-height: 300px;
+        }
+        #root{
+            display: grid;
+            grid-template-columns: 450px 450px 450px;
+        }
+        footer{
+          height: 100px;
+          background-color: aqua;
+        }
+    </style>
+  </head>
+  <body>
+    <!-- <h1>hi, Kamal</h1> -->
+    <header><H1>NEWS</H1></header>
+    <main>
+      <div id="root"></div>
+    </main>
+    <footer></footer>
+    <script src="news.js"></script>
+  </body>
+</html>
